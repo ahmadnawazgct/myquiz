@@ -1,0 +1,57 @@
+
+<div id="myQuiz">
+        <h1>Test Your Knowledge of <span>Science</span></h1>
+        <div class="progress">
+            <div *ngFor ="let questions of myQuestions; index as i"
+              class="{{( i === activeQuestions) ? 'on' : 'off'}}
+              {{(questions.questionState === 'answered') ? 'answered' : 'unanswered'}}
+              {{(questions.correctness === 'correct') ? 'correct' : 'incorrect'}}"> 
+            </div>
+        </div>
+        <div class="intro {{(activeQuestions > -1) ? 'inactive' : 'active'}}">
+            <h2>Welcome</h2>
+            <p>Click Start Button to test your general Knowledge about Science</p>
+            <p class="btn" (click)="activeQuestions = 0">Start</p>
+        </div>
+        <div *ngFor ="let questions of myQuestions; index as i"
+        class="question  
+        {{(i === activeQuestions ? 'active' : 'inactive')}}
+        {{(questions.questionState === 'answered' ? 'answered' : 'unanswered')}}">
+            <p class="txt">{{questions.question}}</p>
+
+            <p  class="ans"
+                [ngClass] =" {
+                'image':Answer.image,    
+                'selected': isSelected(i, j),
+                'correct': isCorrect(i,j)
+                    }"
+                *ngFor="let Answer of myQuestions[i].answers; index as j" 
+                [ngStyle] = "{'background':'url(' + Answer.image + ')' }"
+                (click)="selectAnswer(i, j)" >
+                {{Answer.text}}
+            </p>
+            
+            <div class="feedback">
+                <p *ngIf="questions.correctness === 'correct' "><strong>CORRECT</strong></p>
+                <p *ngIf="questions.correctness === 'incorrect' ">Oops! WRONG</p>
+                <p>{{questions.feedback}}</p>
+                <div class="btn" (click)="selectContinue()">Continue</div>
+            </div>
+        </div>
+        <div class="results {{ (totalQuestions === activeQuestions) ? 'active' : 'inactive'}} ">
+            <p>Results</p>
+            <p>Total questions:<strong>{{totalQuestions}}</strong></p>
+            <p>Correct Answers:<strong>{{score}}</strong></p>
+            <p>Incorrect Answers:{{totalQuestions-score}}</p>
+            <p>You percentage score: {{percentage}}</p>
+            <p>Use the links below to challenge your friends</p>
+            <div class="share"> <!--[innerHTML]= "selectShareLink(percentage)"-->
+               <a class="btn email" href="https://accounts.google.com/">Email to a friend</a>
+               <a class="btn twitter" href="https://twitter.com/">Tweet your score</a>
+            </div>
+        </div>
+</div>
+
+    
+  
+  

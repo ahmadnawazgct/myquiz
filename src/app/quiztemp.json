@@ -1,0 +1,136 @@
+{
+    "question": "Which image shows a close-up of Saturn?",
+    "answers": [
+      { "id": 0, "image": "../src/app/images/close_up_01.jpg" },
+      { "id": 1, "image": "../src/app/images/close_up_02.jpg" },
+      { "id": 2, "image": "../src/app/images/close_up_03.jpg" },
+      { "id": 3, "image": "../src/app/images/close_up_04.jpg" }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which kind of waves are used to make and receive cell phone calls?",
+    "answers": [
+      { "id": 0, "text": "Radio waves" },
+      { "id": 1, "text": "Visible light waves" },
+      { "id": 2, "text": "Sound waves" },
+      { "id": 3, "text": "Gravity waves" }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does a light-year measure?",
+    "answers": [
+      { "id": 0, "text": "Brightness" },
+      { "id": 1, "text": "Weight" },
+      { "id": 2, "text": "Time" },
+      { "id": 3, "text": "Distance" }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Which of these terms is defined as the study of how the positions of stars and planets can influence human behavior?",
+    "answers": [
+      { "id": 0, "text": "Astrology" },
+      { "id": 1, "text": "Alchemy" },
+      { "id": 2, "text": "Time" },
+      { "id": 3, "text": "Astronomy" }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "How many bones do sharks have in their bodies?",
+    "answers": [
+      { "id": 0, "text": "0" },
+      { "id": 1, "text": "4" },
+      { "id": 2, "text": "269" },
+      { "id": 3, "text": "1052" }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Yogurt is produced by bacterial fermentation of milk.",
+    "answers": [{ "id": 0, "text": "True" }, { "id": 1, "text": "False" }],
+    "correct": 0
+  },
+  {
+    "question": "The fear of what animal is known as ‘arachnophobia’? ",
+    "answers": [
+      { "id": 0, "text": "Snakes" },
+      { "id": 1, "text": "Cats" },
+      { "id": 2, "text": "Bulls" },
+      { "id": 3, "text": "Spiders" }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What is the biggest planet in our Solar System?",
+    "answers": [
+      { "id": 0, "text": "Jupiter" },
+      { "id": 1, "text": "Saturn" },
+      { "id": 2, "text": "Pluto" },
+      { "id": 3, "text": "Earth" }
+    ],
+    "correct": 0
+  },
+  {
+    "question": "The blanket of air that envelops the earth is called _________ ?",
+    "answers": [
+      { "id": 0, "text": "Upper Crust" },
+      { "id": 1, "text": " Hydrosphere" },
+      { "id": 2, "text": "Lithosphere"},
+      { "id": 3, "text": "Atmosphere" }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Smallest indivisible particle of an element that can exist is called:",
+    "answers": [
+      { "id": 0, "text": "Cell" },
+      { "id": 1, "text": " Nucleus" },
+      { "id": 2, "text": "Molecule"},
+      { "id": 3, "text": "Atom" }
+    ],
+    "correct": 3
+  },
+  {
+    "question": "Lunar eclipse refers to the eclipse caused by the _____________",
+    "answers": [
+      { "id": 0, "text": "Sun" },
+      { "id": 1, "text": " Moon" },
+      { "id": 2, "text": "Mars"},
+      { "id": 3, "text": "Venus" }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The process by which green plants manufacture their food is called _____ ?",
+    "answers": [
+      { "id": 0, "text": "Respiration" },
+      { "id": 1, "text": " Photosynthesis" },
+      { "id": 2, "text": "Digestion"},
+      { "id": 3, "text": "Excretion" }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "The layer that protects the earth from UV radiations is",
+    "answers": [
+      { "id": 0, "text": "Nitrogen" },
+      { "id": 1, "text": "  Ozone layer" },
+      { "id": 2, "text": "Methane"},
+      { "id": 3, "text": "Magnesium Oxide" }
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Albatross is ?",
+    "answers": [
+      { "id": 0, "text": "A sea bird" },
+      { "id": 1, "text": "A beatl" },
+      { "id": 2, "text": "A fruit"},
+      { "id": 3, "text": "A city" }
+    ],
+    "correct": 0
+  }
+]

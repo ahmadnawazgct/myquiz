@@ -1,0 +1,155 @@
+[
+    {
+        "question" :"This picture shows an object in space that has an icy core with a tail of gas and dust that extends millions of miles. What is this?",
+        "answers":[
+            { "id": 0, "text":"a star"},
+            { "id": 1, "text":"a comet"},
+            { "id": 2, "text":"an asteriod"},
+            { "id": 3, "text":"a moon"}
+        ],
+        "correct"  : 1
+    },
+    {
+        "question" : "Which image shows a close-up of Saturn?",
+        "answers"  : [
+            {"id"  : 0, "image" : "../src/app/images/close_up_01.jpg" },
+            {"id"  : 1, "image" : "../src/app/images/close_up_02.jpg" },
+            {"id"  : 2, "image" : "../src/app/images/close_up_03.jpg" },
+            {"id"  : 3, "image" : "../src/app/images/close_up_04.jpg" }
+        ],
+        "correct"  : 3
+    },
+    {
+        "question" : "Which kind of waves are used to make and receive cell phone calls?",
+        "answers"  : [
+            {"id"  : 0, "text" : "Radio waves"},
+            {"id"  : 1, "text" : "Visible light waves"},
+            {"id"  : 2, "text" : "Sound waves"},
+            {"id"  : 3, "text" : "Gravity waves"}
+        ],
+        "correct"  : 0
+    },
+    {
+        "question" : "Which of these is the main way that ocean tides are created?",
+        "answers"  : [
+            {"id"  : 0, "text" : "The rotation of the Earth on its axis"},                                    
+            {"id"  : 1, "text" : "The gravitational pull of the moon "},                                                                                                 
+            {"id"  : 2, "text" : "The gravitational pull of the sun"}
+            
+        ],
+        "correct"  : 1,
+        "feedback" : "Though the names seem similar, Triton orbits the planet Neptune."
+    },
+    {
+        "question" : "What does a light-year measure?",  
+        "answers"  : [
+            {"id"  : 0, "text" : "Brightness"},
+            {"id"  : 1, "text" : "  Wei"},
+            {"id"  : 1, "text" : "time"},
+            {"id"  : 1, "text" : "distance"}
+        ],
+        "correct"  : 3
+    },
+    {
+        "question" : "The loudness of a sound is determined by what property of a sound wave?",  
+        "answers"  : [
+            {"id"  : 0, "text" : "frequency"},
+            {"id"  : 1, "text" : "wavelength"},
+            {"id"  : 1, "text" : "Velocity or rate of change"},
+            {"id"  : 1, "text" : "Amplitude or height"}
+        ],
+        "correct"  : 3
+    },
+    {
+        "question" : "How many bones do sharks have in their bodies?",  
+        "answers"  : [
+            {"id"  : 0, "text" : "0"},
+            {"id"  : 1, "text" : "4"},
+            {"id"  : 1, "text" : "269"},
+            {"id"  : 1, "text" : "1052"}
+        ],
+        "correct"  : 0
+    },
+    {
+        "question" : "Yogurt is produced by bacterial fermentation of milk. ",  
+        "answers"  : [
+            {"id"  : 0, "text" : "true"},
+            {"id"  : 1, "text" : "false"}
+        ],
+        "correct"  : 0
+    },
+    {
+        "question" : "The fear of what animal is known as ‘arachnophobia’? ",  
+        "answers"  : [
+            {"id"  : 0, "text" : "Snakes"},
+            {"id"  : 1, "text" : "Cats"},
+            {"id"  : 1, "text" : "spiders"},
+            {"id"  : 1, "text" : "Bulls"}
+        ],
+        "correct"  : 2
+    },
+    {
+        "question" : "What is the biggest planet in our Solar System?",  
+        "answers"  : [
+            {"id"  : 0, "text" : "Jupitor"},
+            {"id"  : 1, "text" : "Saturn"},
+            {"id"  : 1, "text" : "Pluto"},
+            {"id"  : 1, "text" : "Earth"}
+        ],
+        "correct"  : 0
+    },
+   
+    {
+        "question" : "blanket of air that envelops the earth is called _________ ?",  
+        "answers"  : [
+            {"id"  : 0, "text" : "Upper Crust"},
+            {"id"  : 1, "text" : "Hydrosphere"},
+            {"id"  : 1, "text" : "Lithospere"},
+            {"id"  : 1, "text" : "Atmosphere"}
+        ],
+        "correct"  : 3
+    },
+    {
+        "question" : "Smallest indivisible particle of an element that can exist is called:",  
+        "answers"  : [
+            {"id"  : 0, "text" : "Cell"},
+            {"id"  : 1, "text" : "Nucleus"},
+            {"id"  : 1, "text" : "Molecule"},
+            {"id"  : 1, "text" : "Atom"}
+        ],
+        "correct"  : 3
+    },
+    {
+        "question" : "The process by which green plants manufacture their food is called _____ ?",  
+        "answers"  : [
+            {"id"  : 0, "text" : "Respiration"},
+            {"id"  : 1, "text" : "Photpsynthesis"},
+            {"id"  : 1, "text" : "Dijestion"},
+            {"id"  : 1, "text" : "Excretion"}
+        ],
+        "correct"  : 1
+    },
+    {
+        "question" : "The layer that protects the earth from UV radiations is",  
+        "answers"  : [
+            {"id"  : 0, "text" : "Nitrogen"},
+            {"id"  : 1, "text" : "Ozone Layer"},
+            {"id"  : 1, "text" : "Methane"},
+            {"id"  : 1, "text" : "Magnesium Oxide"}
+        ],
+        "correct"  : 1
+    },
+    {
+        "question" : "Albatross is ?",  
+        "answers"  : [
+            {"id"  : 0, "text" : "A sea bird"},
+            {"id"  : 1, "text" : "A beatle"},
+            {"id"  : 1, "text" : "A fruit"},
+            {"id"  : 1, "text" : "A city"}
+        ],
+        "correct"  : 0
+    }
+
+
+
+]
